@@ -1,4 +1,10 @@
 Copyright: © 2026 BlueTree Technical Services. All rights reserved. License Agreement: “This software is licensed by BlueTree Technical Services and is not sold. BlueTree Technical Services retains all intellectual property rights in the software.”
+**********************************************************************
+**Contact us for a completely FREE 15 or 30 day DEMO**               *
+bluetreetechnicalservices@gmail.com - BlueTree Technical Services    *
+905-623-6007 and leave us a voicemail please.                        *
+**********************************************************************
+
 
 🌲 BlueTree LTC Intelligence Platform
 An AI-native operational copilot engineered to help healthcare teams look up resident information, medical diagnoses, and clinical records instantly using natural language processing pipelines.
