@@ -57,24 +57,7 @@ The AI Agent on OPEN AI will use Retrieval-Augmented Generation (RAG) and Text-t
 
 Objective: Enhance an LTC's Staff / Nurse's ability to quickly find data relating to the Long Term Care Facilities, Doctors, Pharmacies, Patient Data, Prescription renewals and more, via AI Agent connected to the LTC Database using RAG, Vector Search Indexing, GPT-4o, MongoDB Atlas Cloud, Python 3.10+ / GitHub Codespaces Virtual Environment. This will be transformed into a commercial cloud SaaS platform offering by © 2026 BlueTree Technical Services. All rights reserved.
 
-The local use Model:
-
-🤖 LTC Database AI Reporting Agent
-A Retrieval-Augmented Generation (RAG) and Text-to-Aggregation AI Agent built inside GitHub Codespaces. This system allows users to query operational data in a MongoDB Atlas LTC database using natural language and receive immediate analytical summary reports via a clean web interface.
-
 The commercial cloud SaaS platform Model: 🤖 LTC Database AI Reporting Agent
-
-🏗️ Architecture & Tech Stack:
-🏗️ Production-Ready AI SaaS Architecture:
-Below is a modern cloud-native architecture for the Long-Term Care AI Platform. It is designed to be scalable, secure, and easy to maintain while supporting multiple long-term care facilities from a single application.
-
-🏗️ High-Level Architecture:
-            🌐 Internet
-┌──────────────────────────────────────────┐ │ LTC Staff / RNs / Doctors │ │ (Web Browser Interface) │ └──────────────────────────────────────────┘ │ ▼ ┌──────────────────────────────────────────┐ │ Streamlit Cloud Web App │ │ BlueTree LTC Intelligence Platform │ │ │ │ • User Interface │ │ • Chat Interface │ │ • Session Management │ │ • Quick Questions Sidebar │ └──────────────────────────────────────────┘ │ ▼ ┌──────────────────────────────────────────┐ │ LangChain AI Agent Layer │ │ │ │ • Natural Language Understanding │ │ • Tool Calling │ │ • Reasoning Engine │ │ • Prompt Management │ │ • Response Generation │ └──────────────────────────────────────────┘ │ ▼ ┌──────────────────────────────────────────┐ │ Large Language Model │ │ │ │ OpenAI GPT-4 / GPT-5 │ │ (Future: Gemini or Anthropic) │ └──────────────────────────────────────────┘ │ ▼ ┌──────────────────────────────────────────┐ │ MongoDB Atlas Cluster │ │ │ │ • Patients │ │ • Medical Records │ │ • Prescriptions │ │ • Doctors │ │ • Pharmacies │ │ • Facilities │ │ • Vector Search (RAG Ready) │ └──────────────────────────────────────────┘
-
-Technology Stack Frontend Component Technology User Interface Streamlit Dashboard Streamlit Chat Interface Streamlit Chat Session State Streamlit Session Management Hosting Streamlit Community Cloud Backend Component Technology Programming Language Python 3.12 AI Framework LangChain Agent Framework LangChain Agents Database Driver PyMongo Environment Variables Python Dotenv Authentication (Planned) Okta / Microsoft Entra ID Database Layer Component Technology Database MongoDB Atlas Database Type NoSQL Document Database Search MongoDB Atlas Search Vector Database Atlas Vector Search Relationships Document References Cloud Hosting MongoDB Atlas Cloud AI Layer Component Technology LLM Provider OpenAI Future Provider Gemini Future Provider Anthropic Claude Natural Language Querying LangChain Clinical Intelligence Custom Agent Tools RAG Capability Atlas Vector Search Current Collections Patients Medical Records Prescriptions RX Doctors Pharmacies LTC Facilities Queries Data Flow Example User asks: Show medications for Patient One Flow User Question ↓ Streamlit Chat Interface ↓ LangChain Agent ↓ Determine Required Tool ↓ MongoDB Query ↓ Retrieve Documents ↓ LLM Formats Response ↓ Display to User Example Response Amoxicillin 500mg Twice daily
-
-Ibuprofen 250mg Once daily Current Capabilities
 
 ✅ Natural Language Querying
 
@@ -91,12 +74,6 @@ Ibuprofen 250mg Once daily Current Capabilities
 ✅ Cloud Hosted
 
 ✅ Session Persistence
-
-Planned Capabilities Clinical Decision Support Medication Interaction Detection Polypharmacy Risk Fall Risk Prediction Clinical Recommendations Analytics Occupancy Trends Medication Usage Admissions Resident Demographics Reporting PDF Reports Excel Reports CSV Export Executive Dashboards Security OAuth2 Okta SSO Microsoft Entra ID MFA RBAC Audit Logging Multi-Tenant SaaS Facility A Facility B Facility C
-
-Each facility:
-
-isolated data isolated users isolated reports isolated dashboards Production Architecture (Future) Users ↓ Cloudflare CDN ↓ BlueTree Web App ↓ API Gateway ↓ AI Agent Service ↓ MongoDB Atlas ↓ Vector Search ↓ Clinical Analytics Engine Why This Architecture Works
 
 ✅ Cloud Native
 
@@ -123,40 +100,46 @@ BlueTree Long-Term Care Intelligence Platform is an AI-native, cloud-hosted clin
 For BlueTree Technical Services AI SaaS Platform, Dynamic Capabilities & Tools are the functions and services the AI agent can invoke in real time—not just answer questions, but actively retrieve data, analyze it, generate reports, and automate tasks.
 
 ⚙️ Dynamic Capabilities & Tools:
+
 🤖 AI Intelligence
 
 🩺 BlueTree Long-Term Care Intelligence Platform Dynamic Capabilities & Tools
 
-The platform is no longer just a database query tool—it is becoming an AI-powered Clinical Intelligence Assistant that can reason over healthcare data and provide actionable insights.
+The platform is no longer just a database query tool—it is an AI-powered Clinical Intelligence Assistant that can reason over healthcare data and provide actionable insights.
 
-Natural Language Clinical Query Engine Capability
-Allows healthcare professionals to ask questions in everyday language instead of writing database queries.
-
-Examples How many residents are in the facility? Show all medications prescribed to Patient One. What is Ronald Brooks' medical history? Which residents have hypertension? Behind the Scenes User Question ↓ LLM Interpretation ↓ MongoDB Query Generation ↓ Data Retrieval ↓ Clinical Response 2. Dynamic Database Discovery Tool Capability
+Natural Language Clinical Query Engine Capability: Allows healthcare professionals to ask questions in everyday language instead of writing database queries.
 
 The AI can discover collections and understand your database structure dynamically.
 
-Examples List all collections. What data is available? Current Collections Patients Medical Records Prescriptions RX Doctors Pharmacies LTC Facilities Queries 3. Resident Information Retrieval Tool Capability
+In the Long Term Care Industry we must consider What data is available? We have built a Resident Information Retrieval Tool:
 
 Instantly retrieve:
 
-Demographics Medical history Diagnoses Allergies Care plans Medications Examples Show Patient One's profile. What diagnoses does Ronald Brooks have? 4. Medication Intelligence Tool Capability
+Demographics Medical history Diagnoses Allergies Care plans Medications Examples Show Patient One's profile. 
 
-Retrieve medication information including:
+Medication Intelligence Tool Capability, Retrieve medication information including:
 
-Drug Name Dosage Frequency Duration Prescribed Date Prescribing Physician Examples Show medications for Patient One. Which residents take Ibuprofen? Future Dynamic Capabilities 5. Polypharmacy Detection Engine Capability
+Drug Name Dosage Frequency Duration Prescribed Date Prescribing Physician Examples Show medications for Patient One. Which residents take Ibuprofen? Future Dynamic Capabilities.
+
+Polypharmacy Detection Engine Capability:
 
 Identify residents taking excessive medications.
 
-Example Show residents taking more than 10 medications. Benefits Medication safety Adverse event reduction Quality improvement 6. Medication Interaction Detection Capability
+Benefits:
+Medication safety, Adverse event reduction, Quality improvement. 
+
+Medication Interaction Detection Capability:
 
 Detect possible drug interactions.
 
-Example Which residents may have medication interactions? Benefits Clinical decision support Improved resident safety Reduced medication errors 7. Fall Risk Assessment Tool Capability
+Benefits:
+Clinical decision support Improved resident safety Reduced medication errors.
 
-Identify residents at increased risk of falls.
+Fall Risk Assessment Tool Capability: Identify residents at increased risk of falls.
 
-Example Which residents are at high risk for falls? Uses Care planning Nursing interventions Safety initiatives 8. Clinical Decision Support Assistant Capability
+Example: Which residents are at high risk for falls? Uses Care planning Nursing interventions Safety initiatives.
+
+Clinical Decision Support Assistant Capability:
 
 AI-generated recommendations.
 
