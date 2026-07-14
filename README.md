@@ -1,0 +1,2 @@
+# BlueTree-LTC-Intelligence-Platform---An-AI-native-operational-copilot
+Become the leading AI platform for long-term care organizations in Canada and North America by transforming how care teams access information, make decisions, and improve resident outcomes. To empower long-term care facilities with AI-driven clinical intelligence, operational analytics, and secure access to resident information
