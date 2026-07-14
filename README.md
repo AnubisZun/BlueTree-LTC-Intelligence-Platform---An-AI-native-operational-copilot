@@ -29,13 +29,13 @@ Most existing systems are electronic record systems, not intelligent decision-su
 
 Solution
 
-🌲 BlueTree LTC Intelligence Platform
-
 ❌ Another Electronic Medical Record (EMR)
 
-Instead position it as:
+NO!
 
-AI-Powered Clinical Intelligence Platform for Long-Term Care
+✅ 🌲 BlueTree LTC Intelligence Platform
+
+Introducing an AI-Powered Clinical Intelligence Platform for Long-Term Care
 
 🛠️ Architecture Stack
 Frontend Dashboard: Streamlit (Python-native multi-page layout configuration)
