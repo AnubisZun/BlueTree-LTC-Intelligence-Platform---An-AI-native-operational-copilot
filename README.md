@@ -5,6 +5,9 @@ Copyright: © 2026 BlueTree Technical Services. All rights reserved. License Agr
 bluetreetechnicalservices@gmail.com - BlueTree Technical Services    *
 905-623-6007 and leave us a voicemail please.                        *
 **********************************************************************
+Vision Statement
+
+BlueTree Long-Term Care Intelligence Platform empowers healthcare teams with AI-driven clinical insights, natural language access to resident information, and intelligent decision support to improve care quality, operational efficiency, and resident outcomes.
 
 🌲 BlueTree LTC Intelligence Platform
 An AI-native operational copilot engineered to help healthcare teams look up resident information, medical diagnoses, and clinical records instantly using natural language processing pipelines.
@@ -120,7 +123,8 @@ Natural Language Clinical Query Engine Capability: Allows healthcare professiona
 
 The AI can discover collections and understand your database structure dynamically.
 
-In the Long Term Care Industry we must consider What data is available? We have built a Resident Information Retrieval Tool:
+In the Long Term Care Industry we must consider What data is actually available?
+We have built a Resident Information Retrieval Tool:
 
 Instantly retrieve:
 
@@ -213,10 +217,6 @@ that can:
 ✅ Support decision making
 
 ✅ Scale to multiple long-term care facilities
-
-Vision Statement
-
-BlueTree Long-Term Care Intelligence Platform empowers healthcare teams with AI-driven clinical insights, natural language access to resident information, and intelligent decision support to improve care quality, operational efficiency, and resident outcomes.
 
 📊 Business Intelligence Tools
 Executives could ask:
