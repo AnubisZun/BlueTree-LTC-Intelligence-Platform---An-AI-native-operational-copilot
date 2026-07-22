@@ -5,6 +5,35 @@ Copyright: © 2026 BlueTree Technical Services. All rights reserved. License Agr
 bluetreetechnicalservices@gmail.com - BlueTree Technical Services    *
 905-623-6007 and leave us a voicemail please.                        *
 **********************************************************************
+BlueTree Long-Term Care Intelligence Platform (GitHub)
+
+SEAN MATTHEWS - AI Solutions Engineer | Lead Developer
+
+Architected and developed a cloud-native AI-powered SaaS platform for long-term care facilities using Python, Streamlit, MongoDB Atlas, LangChain, and Large Language Models (LLMs).
+Designed and implemented Retrieval-Augmented Generation (RAG) using MongoDB Atlas Vector Search to enable accurate, context-aware natural language querying across healthcare datasets.
+
+Built an intelligent AI assistant capable of retrieving and summarizing clinical information, including patient records, medications, physicians, pharmacies, and long-term care facility data.
+Developed scalable NoSQL data models and optimized document relationships for healthcare information management.
+Integrated LLM APIs, semantic search, embeddings, and prompt engineering to deliver production-ready AI workflows.
+
+Engineered secure cloud architecture with GitHub-based version control, automated deployment, and scalable MongoDB Atlas infrastructure.
+Designed an intuitive web interface enabling healthcare professionals to interact with complex clinical data using conversational AI.
+Implemented modular AI workflows supporting future expansion into analytics dashboards, clinical decision support, multi-tenant SaaS, and workflow automation.
+
+Collaborated with clinical requirements and business objectives to transform operational challenges into practical AI-powered solutions.
+Continuously enhanced the platform through rapid prototyping, testing, and iterative deployment using modern AI development practices.
+
+Technology Stack
+
+Languages: Python, JavaScript, SQL, JSON
+
+AI: LangChain, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Prompt Engineering, AI Agents, Semantic Search, Vector Search
+
+Databases: MongoDB Atlas, MongoDB Compass, NoSQL Document Database
+
+Cloud & DevOps: Streamlit Cloud, GitHub, Git, REST APIs
+
+Architecture: Cloud-Native SaaS, Multi-Tenant Design, AI Workflows, Intelligent Document Retrieval
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Vision Statement
 
@@ -25,7 +54,6 @@ Safer medications. Smarter insights. Better outcomes.
 
 BlueTree Medication Intelligence helps care teams see the whole medication picture—so they can make informed decisions with confidence.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 The Problem
 
 Many long-term care homes struggle with:
